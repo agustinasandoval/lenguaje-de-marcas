@@ -1,0 +1,112 @@
+
+@font-face {
+    font-family: fuente1;
+    src: url("../fonts/LazenbyCompLiquid.ttf");
+}
+
+@font-face {
+    font-family: fuente2;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+body {background-color:black;
+    margin:0;
+    padding:0;}
+
+#container {width:90%;
+        margin:right;
+        }
+    h1 {letter-spacing:0.2em;}
+    
+    nav {position:sticky; 
+        top:0;           
+        z-index:99;     
+        opacity:0.7;}   
+    
+    .topnav {
+        overflow: hidden;
+        background-color:black;
+        font-family:fuente1;
+        letter-spacing: 0.2em;
+    }
+      
+    .topnav a {
+        float: left;
+        display: block;
+        color:darkturquoise;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+      
+    .topnav a:hover {
+        background-color:darkorange;
+        color: black;
+    }
+      
+    .topnav .icon {
+        display: none;
+    }
+
+#hero {background-image: url("../images/hero.jpg");
+        background-size:cover; 
+        background-position:66%; 
+        height:90vh;  
+        position:relative; 
+    }
+ 
+#hero h1 {color:darkturquoise;
+           position: absolute;  
+           top:400px;
+           left: 20px;
+           font-family:fuente1; 
+           font-size:2.5em;
+           letter-spacing:0.1em;
+         }
+
+#introduction {font-family:fuente2;  
+            color:darkturquoise;      
+            padding:15%;
+            text-align:justify;
+           }
+
+#introduction h1 {font-family:fuente1;
+               text-align:center;
+               font-size:2em;}
+
+#quantum {width:50%;  
+       float:right;
+       margin:15px;
+     }
+
+#introduction p:first-letter {font-size:1.8em;  
+                           color:darkorange;}
+
+#phototypes {font-family: fuente2;
+            padding:10%;
+            color:darkturquoise;
+            text-align:justify;}
+                  
+#phototypes h1 {font-family: fuente1;
+                font-size:2em;
+                text-align:center;}
+                  
+#phototypes p:first-letter {font-size:1.8em;
+                            color:darkorange;}
+                  
+.cuarto {width:23%;
+        margin:1%;
+        padding:2%;
+        float:left;
+        box-sizing:border-box;
+        border:1px solid darkorange;}
+                       
+.cuarto img {width:100%;
+            opacity:0.5;}
+                       
+.cuarto img:hover {opacity:1;}
+                       
+.cuarto h2 {font-family: runas;
+            color:white;
+            text-align:center;}
